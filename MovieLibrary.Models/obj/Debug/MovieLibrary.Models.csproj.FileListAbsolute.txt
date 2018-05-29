@@ -1,0 +1,20 @@
+C:\Users\Jonas\source\repos\MovieLibraryApp\MovieLibrary.Models\bin\Debug\MovieLibrary.Models.dll
+C:\Users\Jonas\source\repos\MovieLibraryApp\MovieLibrary.Models\bin\Debug\MovieLibrary.Models.pdb
+C:\Users\Jonas\source\repos\MovieLibraryApp\MovieLibrary.Models\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jonas\source\repos\MovieLibraryApp\MovieLibrary.Models\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jonas\source\repos\MovieLibraryApp\MovieLibrary.Models\obj\Debug\MovieLibrary.Models.csproj.CoreCompileInputs.cache
+C:\Users\Jonas\source\repos\MovieLibraryApp\MovieLibrary.Models\obj\Debug\MovieLibrary.Models.csproj.CopyComplete
+C:\Users\Jonas\source\repos\MovieLibraryApp\MovieLibrary.Models\obj\Debug\MovieLibrary.Models.dll
+C:\Users\Jonas\source\repos\MovieLibraryApp\MovieLibrary.Models\obj\Debug\MovieLibrary.Models.pdb
+C:\Users\Jonas\source\repos\MovieLibraryApp\MovieLibrary.Models\obj\Debug\MovieLibrary.Models.csprojResolveAssemblyReference.cache
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Models\bin\Debug\MovieLibrary.Models.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Models\bin\Debug\MovieLibrary.Models.pdb
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Models\obj\Debug\MovieLibrary.Models.csproj.CoreCompileInputs.cache
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Models\obj\Debug\MovieLibrary.Models.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Models\obj\Debug\MovieLibrary.Models.pdb
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Models\obj\Debug\MovieLibrary.Models.csprojResolveAssemblyReference.cache
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Models\bin\Debug\MovieLibrary.Models.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Models\bin\Debug\MovieLibrary.Models.pdb
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Models\obj\Debug\MovieLibrary.Models.csproj.CoreCompileInputs.cache
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Models\obj\Debug\MovieLibrary.Models.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Models\obj\Debug\MovieLibrary.Models.pdb

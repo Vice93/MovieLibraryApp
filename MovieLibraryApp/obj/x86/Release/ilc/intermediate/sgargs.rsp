@@ -1,0 +1,10 @@
+/out:"D:\Visual Studio\repo\MovieLibraryApp\MovieLibraryApp\obj\x86\Release\ilc\intermediate\SgGenerated\\"
+/int:"D:\Visual Studio\repo\MovieLibraryApp\MovieLibraryApp\obj\x86\Release\ilc\intermediate\\"
+/ref:"D:\Visual Studio\repo\MovieLibraryApp\MovieLibraryApp\obj\x86\Release\ilc\intermediate\PreMergeILTransformed\\"
+/ref:"D:\Visual Studio\repo\MovieLibraryApp\MovieLibraryApp\obj\x86\Release\ilc\intermediate\TransformedSRWR\\"
+/ref:"D:\Visual Studio\repo\MovieLibraryApp\MovieLibraryApp\obj\x86\Release\ilc\in\\"
+/ref:"D:\Visual Studio\repo\MovieLibraryApp\MovieLibraryApp\obj\x86\Release\ilc\in\\"
+/ref:"D:\Visual Studio\repo\MovieLibraryApp\MovieLibraryApp\obj\x86\Release\ilc\in\\"
+/ref:"C:\Program Files (x86)\MSBuild\15.0\.Net\.NetNative\15.0.24211\x86\ilc\lib\Private\\"
+/ref:"D:\Visual Studio\repo\MovieLibraryApp\MovieLibraryApp\obj\x86\Release\ilc\in\WinMetadata\\"
+/ca:System.Private.CoreLib

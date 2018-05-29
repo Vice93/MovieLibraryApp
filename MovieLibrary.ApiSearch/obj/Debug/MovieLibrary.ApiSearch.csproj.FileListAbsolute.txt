@@ -1,0 +1,33 @@
+C:\Users\Jonas\source\repos\MovieLibraryApp\MovieLibrary.ApiSearch\bin\Debug\MovieLibrary.ApiSearch.dll
+C:\Users\Jonas\source\repos\MovieLibraryApp\MovieLibrary.ApiSearch\bin\Debug\MovieLibrary.ApiSearch.pdb
+C:\Users\Jonas\source\repos\MovieLibraryApp\MovieLibrary.ApiSearch\bin\Debug\MovieLibrary.Models.dll
+C:\Users\Jonas\source\repos\MovieLibraryApp\MovieLibrary.ApiSearch\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jonas\source\repos\MovieLibraryApp\MovieLibrary.ApiSearch\bin\Debug\MovieLibrary.Models.pdb
+C:\Users\Jonas\source\repos\MovieLibraryApp\MovieLibrary.ApiSearch\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jonas\source\repos\MovieLibraryApp\MovieLibrary.ApiSearch\obj\Debug\MovieLibrary.ApiSearch.csprojResolveAssemblyReference.cache
+C:\Users\Jonas\source\repos\MovieLibraryApp\MovieLibrary.ApiSearch\obj\Debug\MovieLibrary.ApiSearch.csproj.CoreCompileInputs.cache
+C:\Users\Jonas\source\repos\MovieLibraryApp\MovieLibrary.ApiSearch\obj\Debug\MovieLibrary.ApiSearch.csproj.CopyComplete
+C:\Users\Jonas\source\repos\MovieLibraryApp\MovieLibrary.ApiSearch\obj\Debug\MovieLibrary.ApiSearch.dll
+C:\Users\Jonas\source\repos\MovieLibraryApp\MovieLibrary.ApiSearch\obj\Debug\MovieLibrary.ApiSearch.pdb
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.ApiSearch\bin\Debug\MovieLibrary.ApiSearch.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.ApiSearch\bin\Debug\MovieLibrary.ApiSearch.pdb
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.ApiSearch\bin\Debug\MovieLibrary.Models.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.ApiSearch\bin\Debug\Newtonsoft.Json.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.ApiSearch\bin\Debug\MovieLibrary.Models.pdb
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.ApiSearch\bin\Debug\Newtonsoft.Json.xml
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.ApiSearch\obj\Debug\MovieLibrary.ApiSearch.csprojResolveAssemblyReference.cache
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.ApiSearch\obj\Debug\MovieLibrary.ApiSearch.csproj.CoreCompileInputs.cache
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.ApiSearch\obj\Debug\MovieLibrary.ApiSearch.csproj.CopyComplete
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.ApiSearch\obj\Debug\MovieLibrary.ApiSearch.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.ApiSearch\obj\Debug\MovieLibrary.ApiSearch.pdb
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.ApiSearch\bin\Debug\MovieLibrary.ApiSearch.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.ApiSearch\bin\Debug\MovieLibrary.ApiSearch.pdb
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.ApiSearch\bin\Debug\MovieLibrary.Models.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.ApiSearch\bin\Debug\Newtonsoft.Json.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.ApiSearch\bin\Debug\MovieLibrary.Models.pdb
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.ApiSearch\bin\Debug\Newtonsoft.Json.xml
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.ApiSearch\obj\Debug\MovieLibrary.ApiSearch.csprojResolveAssemblyReference.cache
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.ApiSearch\obj\Debug\MovieLibrary.ApiSearch.csproj.CoreCompileInputs.cache
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.ApiSearch\obj\Debug\MovieLibrary.ApiSearch.csproj.CopyComplete
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.ApiSearch\obj\Debug\MovieLibrary.ApiSearch.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.ApiSearch\obj\Debug\MovieLibrary.ApiSearch.pdb

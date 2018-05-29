@@ -1,0 +1,4 @@
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.ApiSearch\MovieLibrary.ApiSearch.csproj;neutral
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Models\MovieLibrary.Models.csproj;neutral
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Models\MovieLibrary.Models.csproj;neutral
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibraryApp\MovieLibrary.App.csproj;x86

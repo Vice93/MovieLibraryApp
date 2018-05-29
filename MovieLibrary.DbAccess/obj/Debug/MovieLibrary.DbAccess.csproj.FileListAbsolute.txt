@@ -1,0 +1,20 @@
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.DbAccess\bin\Debug\MovieLibrary.DbAccess.dll.config
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.DbAccess\bin\Debug\MovieLibrary.DbAccess.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.DbAccess\bin\Debug\MovieLibrary.DbAccess.pdb
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.DbAccess\bin\Debug\MovieLibrary.Models.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.DbAccess\bin\Debug\MovieLibrary.Models.pdb
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.DbAccess\obj\Debug\MovieLibrary.DbAccess.csprojResolveAssemblyReference.cache
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.DbAccess\obj\Debug\MovieLibrary.DbAccess.csproj.CoreCompileInputs.cache
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.DbAccess\obj\Debug\MovieLibrary.DbAccess.csproj.CopyComplete
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.DbAccess\obj\Debug\MovieLibrary.DbAccess.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.DbAccess\obj\Debug\MovieLibrary.DbAccess.pdb
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.DbAccess\bin\Debug\MovieLibrary.DbAccess.dll.config
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.DbAccess\bin\Debug\MovieLibrary.DbAccess.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.DbAccess\bin\Debug\MovieLibrary.DbAccess.pdb
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.DbAccess\bin\Debug\MovieLibrary.Models.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.DbAccess\bin\Debug\MovieLibrary.Models.pdb
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.DbAccess\obj\Debug\MovieLibrary.DbAccess.csprojResolveAssemblyReference.cache
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.DbAccess\obj\Debug\MovieLibrary.DbAccess.csproj.CoreCompileInputs.cache
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.DbAccess\obj\Debug\MovieLibrary.DbAccess.csproj.CopyComplete
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.DbAccess\obj\Debug\MovieLibrary.DbAccess.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.DbAccess\obj\Debug\MovieLibrary.DbAccess.pdb

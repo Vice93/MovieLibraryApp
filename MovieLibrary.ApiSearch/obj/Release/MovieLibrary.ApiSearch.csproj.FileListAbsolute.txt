@@ -1,0 +1,11 @@
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.ApiSearch\bin\Release\MovieLibrary.ApiSearch.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.ApiSearch\bin\Release\MovieLibrary.ApiSearch.pdb
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.ApiSearch\bin\Release\MovieLibrary.Models.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.ApiSearch\bin\Release\Newtonsoft.Json.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.ApiSearch\bin\Release\MovieLibrary.Models.pdb
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.ApiSearch\bin\Release\Newtonsoft.Json.xml
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.ApiSearch\obj\Release\MovieLibrary.ApiSearch.csprojResolveAssemblyReference.cache
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.ApiSearch\obj\Release\MovieLibrary.ApiSearch.csproj.CoreCompileInputs.cache
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.ApiSearch\obj\Release\MovieLibrary.ApiSearch.csproj.CopyComplete
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.ApiSearch\obj\Release\MovieLibrary.ApiSearch.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.ApiSearch\obj\Release\MovieLibrary.ApiSearch.pdb

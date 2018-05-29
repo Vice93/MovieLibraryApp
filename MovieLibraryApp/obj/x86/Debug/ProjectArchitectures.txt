@@ -1,0 +1,4 @@
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.ApiSearch\MovieLibrary.ApiSearch.csproj;neutral
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Models\MovieLibrary.Models.csproj;neutral
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Models\MovieLibrary.Models.csproj;neutral
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibraryApp\MovieLibrary.App.csproj;x86

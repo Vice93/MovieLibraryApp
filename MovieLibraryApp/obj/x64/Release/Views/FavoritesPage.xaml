@@ -1,0 +1,99 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="MovieLibraryApp.Views.FavoritesPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:model="using:MovieLibrary.Models.Model"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="using:MovieLibraryApp.ViewModels" 
+    mc:Ignorable="d">
+
+    <Page.DataContext>
+        <vm:FavoritesViewModel x:ConnectionId='2' x:Name="ViewModel" />
+    </Page.DataContext>
+
+    <RelativePanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image x:ConnectionId='3' 
+            Name="BannerImage"
+            RelativePanel.AlignLeftWithPanel="True"
+            RelativePanel.AlignRightWithPanel="True"
+            Stretch="UniformToFill" 
+            Height="200" 
+            Source="/Assets/banner.jpg"/>
+        <TextBlock x:ConnectionId='4' 
+            FontFamily="/Assets/Fonts/Lato/Lato-Bold.tff#Lato"
+            FontSize="25"
+            RelativePanel.AlignBottomWith="BannerImage"
+            Name="BannerTitle"
+            Margin="0,0,60,30"
+            RelativePanel.AlignRightWithPanel="True"
+            Foreground="#f5f5f5"
+            Text="Warcraft"
+        />
+        <TextBlock x:ConnectionId='5'
+            FontFamily="/Assets/Fonts/Montserrat/Montserrat-Regular.ttf#Montserrat"
+            Name="FavoritesText"
+            RelativePanel.Below="BannerImage"
+            Margin="25,20,0,0"
+            FontSize="25"
+            Text="Favorites"/>
+        <Grid
+            RelativePanel.Below="FavoritesText"
+            RelativePanel.AlignLeftWithPanel="True"
+            RelativePanel.AlignRightWithPanel="True">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <GridView x:ConnectionId='7' Grid.Row="0" 
+                      ScrollViewer.VerticalScrollMode="Enabled"
+                      Name="MainGrid"
+                      IsItemClickEnabled="True"
+                                                                      
+                      SelectedItem="{Binding MovieObject, Mode=TwoWay}">
+                <GridView.ItemTemplate>
+                    <DataTemplate                         >
+                        <StackPanel Orientation="Vertical"
+                            Name="MovieBox"
+                            Background="#EBEBEB"
+                            Margin="20,20,20,10"
+                            HorizontalAlignment="Center"
+                            Tag="{Binding MovieId}"
+                            CornerRadius="5">
+
+                            <StackPanel 
+                                Background="#424242">
+                                <Image
+                                    Source="{Binding ImageReference}"
+                                    Width="170"
+                                    Height="100"
+                                    Stretch="UniformToFill">
+                                </Image>
+                            </StackPanel>
+                            <StackPanel 
+                                HorizontalAlignment="Center"
+                                Padding="10,3,3,3">
+                                <TextBlock  
+                                    FontFamily="/Assets/Fonts/Lato/Lato-Bold.tff#Lato"
+                                    Width="150" 
+                                    Height="20" 
+                                    TextWrapping="Wrap"
+                                    Text="{Binding MovieName}" />
+                            </StackPanel>
+                        </StackPanel>
+                    </DataTemplate>
+                </GridView.ItemTemplate>
+            </GridView>
+        </Grid>
+        <ProgressRing x:ConnectionId='6' 
+            x:Name="LoadingIndicator"
+            Foreground="#616161"
+            Width="100"
+            Height="100"
+            Visibility="Visible"
+            RelativePanel.Below="BannerImage"
+            RelativePanel.AlignLeftWithPanel="True"
+            RelativePanel.AlignRightWithPanel="True"
+            Margin="0,150,0,0"/>
+    </RelativePanel>
+</Page>
+

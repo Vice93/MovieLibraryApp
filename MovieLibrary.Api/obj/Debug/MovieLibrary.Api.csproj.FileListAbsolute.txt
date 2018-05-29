@@ -1,0 +1,160 @@
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\System.Collections.Immutable.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\System.Reflection.Metadata.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\VBCSCompiler.exe
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\ApplicationInsights.config
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\MovieLibrary.Api.dll.config
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\MovieLibrary.Api.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\MovieLibrary.Api.pdb
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\csc.exe
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\csc.exe.config
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\csc.rsp
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\csi.exe
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\csi.rsp
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\System.AppContext.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\System.IO.FileSystem.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\vbc.exe
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\vbc.exe.config
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\vbc.rsp
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\VBCSCompiler.exe.config
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\Antlr3.Runtime.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\Microsoft.AI.DependencyCollector.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\Microsoft.AI.Web.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\Microsoft.AI.WindowsServer.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\Microsoft.ApplicationInsights.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\Microsoft.Web.Infrastructure.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\MovieLibrary.DbAccess.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\MovieLibrary.Models.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\Newtonsoft.Json.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\System.Net.Http.Formatting.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.Helpers.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.Http.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.Http.WebHost.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.Mvc.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.Optimization.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.Razor.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.WebPages.Deployment.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.WebPages.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.WebPages.Razor.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\WebGrease.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\MovieLibrary.DbAccess.pdb
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\MovieLibrary.DbAccess.dll.config
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\MovieLibrary.Models.pdb
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\Newtonsoft.Json.xml
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\System.Net.Http.Formatting.xml
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.Helpers.xml
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.Http.xml
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.Http.WebHost.xml
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.Mvc.xml
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.Optimization.xml
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.Razor.xml
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.WebPages.xml
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.WebPages.Deployment.xml
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.WebPages.Razor.xml
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\Antlr3.Runtime.pdb
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\Microsoft.ApplicationInsights.xml
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\Microsoft.AI.DependencyCollector.xml
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\Microsoft.AI.WindowsServer.xml
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\bin\Microsoft.AI.Web.xml
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\obj\Debug\MovieLibrary.Api.csprojResolveAssemblyReference.cache
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\obj\Debug\MovieLibrary.Api.csproj.CoreCompileInputs.cache
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\obj\Debug\MovieLibrary.Api.csproj.CopyComplete
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\obj\Debug\MovieLibrary.Api.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Api\obj\Debug\MovieLibrary.Api.pdb
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\System.Collections.Immutable.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\System.Reflection.Metadata.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\VBCSCompiler.exe
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\ApplicationInsights.config
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\MovieLibrary.Api.dll.config
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\MovieLibrary.Api.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\MovieLibrary.Api.pdb
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\csc.exe
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\csc.exe.config
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\csc.rsp
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\csi.exe
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\csi.rsp
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\System.AppContext.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\System.IO.FileSystem.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\vbc.exe
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\vbc.exe.config
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\vbc.rsp
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\roslyn\VBCSCompiler.exe.config
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\Antlr3.Runtime.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\Microsoft.AI.Agent.Intercept.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\Microsoft.AI.DependencyCollector.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\Microsoft.AI.Web.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\Microsoft.AI.WindowsServer.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\Microsoft.ApplicationInsights.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\Microsoft.Web.Infrastructure.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\MovieLibrary.DbAccess.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\MovieLibrary.Models.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\Newtonsoft.Json.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\System.Net.Http.Formatting.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.Helpers.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.Http.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.Http.WebHost.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.Mvc.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.Optimization.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.Razor.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.WebPages.Deployment.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.WebPages.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.WebPages.Razor.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\WebGrease.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\MovieLibrary.DbAccess.pdb
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\MovieLibrary.DbAccess.dll.config
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\MovieLibrary.Models.pdb
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\Newtonsoft.Json.xml
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\System.Net.Http.Formatting.xml
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.Helpers.xml
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.Http.xml
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.Http.WebHost.xml
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.Mvc.xml
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.Optimization.xml
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.Razor.xml
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.WebPages.xml
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.WebPages.Deployment.xml
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\System.Web.WebPages.Razor.xml
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\Antlr3.Runtime.pdb
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\Microsoft.ApplicationInsights.xml
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\Microsoft.AI.DependencyCollector.xml
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\Microsoft.AI.WindowsServer.xml
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\bin\Microsoft.AI.Web.xml
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\obj\Debug\MovieLibrary.Api.csprojResolveAssemblyReference.cache
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\obj\Debug\MovieLibrary.Api.csproj.CoreCompileInputs.cache
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\obj\Debug\MovieLibrary.Api.csproj.CopyComplete
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\obj\Debug\MovieLibrary.Api.dll
+C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Api\obj\Debug\MovieLibrary.Api.pdb

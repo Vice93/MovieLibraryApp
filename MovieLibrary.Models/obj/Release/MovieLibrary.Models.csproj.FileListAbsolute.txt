@@ -1,0 +1,6 @@
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Models\bin\Release\MovieLibrary.Models.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Models\bin\Release\MovieLibrary.Models.pdb
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Models\obj\Release\MovieLibrary.Models.csprojResolveAssemblyReference.cache
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Models\obj\Release\MovieLibrary.Models.csproj.CoreCompileInputs.cache
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Models\obj\Release\MovieLibrary.Models.dll
+D:\Visual Studio\repo\MovieLibraryApp\MovieLibrary.Models\obj\Release\MovieLibrary.Models.pdb
