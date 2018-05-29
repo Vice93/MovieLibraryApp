@@ -175,7 +175,7 @@ namespace MovieLibraryApp.ViewModels
         /// <summary>
         /// The model used for PostAsync
         /// </summary>
-        public class InsertModel
+        private class InsertModel
         {
             /// <summary>
             /// Gets or sets the user identifier.

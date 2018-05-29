@@ -43,6 +43,7 @@
     <Compile Include="Connection.cs" />
     <Compile Include="ExploreSearch.cs" />
     <Compile Include="ConvertDateTime.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="LookupSearch.cs" />
     <Compile Include="OAuth2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

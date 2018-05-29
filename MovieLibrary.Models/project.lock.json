@@ -9,23 +9,23 @@
     ".NETPortable,Version=v4.5,Profile=Profile7": []
   },
   "packageFolders": {
-    "C:\\Users\\Jonas\\.nuget\\packages\\": {},
+    "C:\\Users\\jonas\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\repo\\dotNetCourseProject\\MovieLibraryApp\\MovieLibrary.Models\\MovieLibrary.Models.csproj",
+      "projectUniqueName": "D:\\Visual Studio\\MovieLibraryApp\\MovieLibrary.Models\\MovieLibrary.Models.csproj",
       "projectName": "MovieLibrary.Models",
-      "projectPath": "C:\\repo\\dotNetCourseProject\\MovieLibraryApp\\MovieLibrary.Models\\MovieLibrary.Models.csproj",
-      "projectJsonPath": "C:\\repo\\dotNetCourseProject\\MovieLibraryApp\\MovieLibrary.Models\\project.json",
-      "packagesPath": "C:\\Users\\Jonas\\.nuget\\packages\\",
-      "outputPath": "C:\\repo\\dotNetCourseProject\\MovieLibraryApp\\MovieLibrary.Models\\obj\\",
+      "projectPath": "D:\\Visual Studio\\MovieLibraryApp\\MovieLibrary.Models\\MovieLibrary.Models.csproj",
+      "projectJsonPath": "D:\\Visual Studio\\MovieLibraryApp\\MovieLibrary.Models\\project.json",
+      "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
+      "outputPath": "D:\\Visual Studio\\MovieLibraryApp\\MovieLibrary.Models\\obj\\",
       "projectStyle": "ProjectJson",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],

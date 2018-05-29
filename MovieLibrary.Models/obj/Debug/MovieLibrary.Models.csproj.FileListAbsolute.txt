@@ -18,3 +18,8 @@ C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Models\bin\Debug\MovieL
 C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Models\obj\Debug\MovieLibrary.Models.csproj.CoreCompileInputs.cache
 C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Models\obj\Debug\MovieLibrary.Models.dll
 C:\repo\dotNetCourseProject\MovieLibraryApp\MovieLibrary.Models\obj\Debug\MovieLibrary.Models.pdb
+D:\Visual Studio\MovieLibraryApp\MovieLibrary.Models\bin\Debug\MovieLibrary.Models.dll
+D:\Visual Studio\MovieLibraryApp\MovieLibrary.Models\bin\Debug\MovieLibrary.Models.pdb
+D:\Visual Studio\MovieLibraryApp\MovieLibrary.Models\obj\Debug\MovieLibrary.Models.csproj.CoreCompileInputs.cache
+D:\Visual Studio\MovieLibraryApp\MovieLibrary.Models\obj\Debug\MovieLibrary.Models.dll
+D:\Visual Studio\MovieLibraryApp\MovieLibrary.Models\obj\Debug\MovieLibrary.Models.pdb

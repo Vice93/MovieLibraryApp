@@ -22511,26 +22511,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jonas\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+    "C:\\Users\\jonas\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repo\\dotNetCourseProject\\MovieLibraryApp\\MovieLibraryApp\\MovieLibrary.App.csproj",
+      "projectUniqueName": "D:\\Visual Studio\\MovieLibraryApp\\MovieLibraryApp\\MovieLibrary.App.csproj",
       "projectName": "MovieLibrary.App",
-      "projectPath": "C:\\repo\\dotNetCourseProject\\MovieLibraryApp\\MovieLibraryApp\\MovieLibrary.App.csproj",
-      "packagesPath": "C:\\Users\\Jonas\\.nuget\\packages\\",
-      "outputPath": "C:\\repo\\dotNetCourseProject\\MovieLibraryApp\\MovieLibraryApp\\obj\\",
+      "projectPath": "D:\\Visual Studio\\MovieLibraryApp\\MovieLibraryApp\\MovieLibrary.App.csproj",
+      "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
+      "outputPath": "D:\\Visual Studio\\MovieLibraryApp\\MovieLibraryApp\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\"
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
@@ -22544,11 +22542,11 @@
       "frameworks": {
         "uap10.0.14393": {
           "projectReferences": {
-            "C:\\repo\\dotNetCourseProject\\MovieLibraryApp\\MovieLibrary.ApiSearch\\MovieLibrary.ApiSearch.csproj": {
-              "projectPath": "C:\\repo\\dotNetCourseProject\\MovieLibraryApp\\MovieLibrary.ApiSearch\\MovieLibrary.ApiSearch.csproj"
+            "D:\\Visual Studio\\MovieLibraryApp\\MovieLibrary.ApiSearch\\MovieLibrary.ApiSearch.csproj": {
+              "projectPath": "D:\\Visual Studio\\MovieLibraryApp\\MovieLibrary.ApiSearch\\MovieLibrary.ApiSearch.csproj"
             },
-            "C:\\repo\\dotNetCourseProject\\MovieLibraryApp\\MovieLibrary.Models\\MovieLibrary.Models.csproj": {
-              "projectPath": "C:\\repo\\dotNetCourseProject\\MovieLibraryApp\\MovieLibrary.Models\\MovieLibrary.Models.csproj"
+            "D:\\Visual Studio\\MovieLibraryApp\\MovieLibrary.Models\\MovieLibrary.Models.csproj": {
+              "projectPath": "D:\\Visual Studio\\MovieLibraryApp\\MovieLibrary.Models\\MovieLibrary.Models.csproj"
             }
           }
         }

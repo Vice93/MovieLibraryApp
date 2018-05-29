@@ -49,7 +49,7 @@ namespace MovieLibrary.DbAccess
                     }
                 }
             }
-            catch(Exception e)
+            catch(SqlException e)
             {
                 const string filePath = @"C:\Error.txt";
                 using (StreamWriter writer = new StreamWriter(filePath, true))
@@ -87,7 +87,7 @@ namespace MovieLibrary.DbAccess
                     return true;
                 }
             }
-            catch (Exception e)
+            catch (SqlException e)
             {
                 const string filePath = @".\Error.txt";
                 using (StreamWriter writer = new StreamWriter(filePath, true))
@@ -125,7 +125,7 @@ namespace MovieLibrary.DbAccess
                     return true;
                 }
             }
-            catch (Exception e)
+            catch (SqlException e)
             {
                 const string filePath = @".\Error.txt";
                 using (StreamWriter writer = new StreamWriter(filePath, true))
@@ -158,7 +158,7 @@ namespace MovieLibrary.DbAccess
                     return true;
                 }
             }
-            catch (Exception e)
+            catch (SqlException e)
             {
                 const string filePath = @".\Error.txt";
                 using (StreamWriter writer = new StreamWriter(filePath, true))
