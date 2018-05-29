@@ -49,30 +49,13 @@ namespace MovieLibraryApp.ViewModels
             {
                 using (var client = new HttpClient())
                 {
-                    LookupSearch ls = new LookupSearch();
-
                     var res = await client.GetStringAsync(_baseUri + "/favorites?userId=" + User.UserId); 
                     var movies = JsonConvert.DeserializeObject<ObservableCollection<Movie>>(res);
 
-                    var idString = "";
-                    for (var i = 0; i < movies.Count; i++)  // This correctly adds as many ids as you have in the database to the search string, however mediahound didn't add a "next" page
-                    {                                       // to the results from a lookup on more than 10 movies. Guess they didn't anticipate that anyone would need to look up more than 10 movies at once?
-                        if (!User.FavoriteMoviesIds.Contains(movies[i].MovieId)) User.FavoriteMoviesIds.Add(movies[i].MovieId);
-
-                        idString += movies[i].MovieId;
-                        if (i != movies.Count - 1) idString += "\",\"";
-                    }
-
-                    var result = await ls.GetMovieInfoAsync(idString);
-
-                    if (result.Count != 0) return result;
-
-                    User.FavoriteMoviesIds.Clear();
-                    return new ObservableCollection<Movie>();
-
+                    return movies;
                 }
             }
-            catch (Exception e)
+            catch (HttpRequestException e)
             {
                 Debug.WriteLine(e);
                 return new ObservableCollection<Movie>();
@@ -95,7 +78,7 @@ namespace MovieLibraryApp.ViewModels
                     return res.IsSuccessStatusCode;
                 }
             }
-            catch(Exception e)
+            catch(HttpRequestException e)
             {
                 Debug.WriteLine(e.Message);
                 return false;
@@ -107,7 +90,7 @@ namespace MovieLibraryApp.ViewModels
         /// </summary>
         /// <param name="movieId">The movie identifier.</param>
         /// <returns></returns>
-        public async Task<bool> InsertMovieInDb(string movieId)
+        public async Task<bool> InsertMovieInDb(string movieId, string movieTitle, string imgRef)
         {
             try
             {
@@ -116,7 +99,9 @@ namespace MovieLibraryApp.ViewModels
                     var model = new InsertModel
                     {
                         UserId = User.UserId.ToString(),
-                        MovieId = movieId
+                        MovieId = movieId,
+                        MovieTitle = movieTitle,
+                        ImgRef = imgRef
                     };
 
                     var res = await client.PostAsync(_baseUri + "/favorites", SerializeJsonContent(model));
@@ -124,7 +109,7 @@ namespace MovieLibraryApp.ViewModels
                     return res.IsSuccessStatusCode;
                 }
             }
-            catch (Exception e)
+            catch (HttpRequestException e)
             {
                 Debug.WriteLine(e.Message);
                 return false;
@@ -146,7 +131,9 @@ namespace MovieLibraryApp.ViewModels
                     {
                         UserId = User.UserId.ToString(),
                         MovieId = movieId,
-                        NewMovie = "mhmov3jmoaTtkI4mfmD0vxbGPAbt6bggCUchYZRG4Om9" //Sample movie (Lord of the Rings)
+                        NewMovie = "mhmov3jmoaTtkI4mfmD0vxbGPAbt6bggCUchYZRG4Om9", //Sample movie (Lord of the Rings)
+                        MovieTitle = "The Lord of the Rings: The Return of the King",
+                        ImgRef = "https://images.mediahound.com/media/mhimgEJ2fdWGaD4D1WqjikaSsR6tVCWM7TDd6wcDorjg.jpg"
                     };
 
                     var res = await client.PutAsync(_baseUri + "/favorites", SerializeJsonContent(model));
@@ -154,7 +141,7 @@ namespace MovieLibraryApp.ViewModels
                     return res.IsSuccessStatusCode;
                 }
             }
-            catch (Exception e)
+            catch (HttpRequestException e)
             {
                 Debug.WriteLine(e.Message);
                 return false;
@@ -198,6 +185,20 @@ namespace MovieLibraryApp.ViewModels
             /// The new movie's id.
             /// </value>
             public string NewMovie { get; set; }
+            /// <summary>
+            /// Gets or sets the movie title.
+            /// </summary>
+            /// <value>
+            /// The movie title.
+            /// </value>
+            public string MovieTitle { get; set; }
+            /// <summary>
+            /// Gets or sets the img reference.
+            /// </summary>
+            /// <value>
+            /// The img reference.
+            /// </value>
+            public string ImgRef { get; set; }
         }
     }
 }

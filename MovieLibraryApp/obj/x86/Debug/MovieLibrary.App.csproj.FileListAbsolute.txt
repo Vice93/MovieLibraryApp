@@ -1074,5 +1074,3 @@ D:\Visual Studio\MovieLibraryApp\MovieLibraryApp\obj\x86\Debug\Microsoft.Xaml.In
 D:\Visual Studio\MovieLibraryApp\MovieLibraryApp\obj\x86\Debug\Microsoft.Xaml.Interactivity.pri.xml
 D:\Visual Studio\MovieLibraryApp\MovieLibraryApp\obj\x86\Debug\Template10Library.pri.xml
 D:\Visual Studio\MovieLibraryApp\MovieLibraryApp\obj\x86\Debug\ProjectArchitectures.txt
-D:\Visual Studio\MovieLibraryApp\MovieLibraryApp\bin\x86\Debug\MovieLibraryApp.exe.CodeAnalysisLog.xml
-D:\Visual Studio\MovieLibraryApp\MovieLibraryApp\bin\x86\Debug\MovieLibraryApp.exe.lastcodeanalysissucceeded

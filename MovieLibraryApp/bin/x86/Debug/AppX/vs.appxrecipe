@@ -31,13 +31,13 @@
     <AppXManifest Include="D:\Visual Studio\MovieLibraryApp\MovieLibraryApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-29T05:51:36.099</Modified>
+      <Modified>2018-05-29T08:09:52.830</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Visual Studio\MovieLibraryApp\MovieLibraryApp\bin\x86\Debug\MovieLibraryApp.exe">
       <PackagePath>entrypoint\MovieLibraryApp.exe</PackagePath>
-      <Modified>2018-05-29T05:50:05.826</Modified>
+      <Modified>2018-05-29T08:09:52.081</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonas\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -513,11 +513,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\MovieLibraryApp\MovieLibrary.ApiSearch\bin\Debug\MovieLibrary.ApiSearch.dll">
       <PackagePath>MovieLibrary.ApiSearch.dll</PackagePath>
-      <Modified>2018-05-29T05:49:47.538</Modified>
+      <Modified>2018-05-29T08:09:40.561</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\MovieLibraryApp\MovieLibrary.Models\bin\Debug\MovieLibrary.Models.dll">
       <PackagePath>MovieLibrary.Models.dll</PackagePath>
-      <Modified>2018-05-29T05:49:47.279</Modified>
+      <Modified>2018-05-29T08:09:40.364</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\MovieLibraryApp\MovieLibraryApp\Assets\Fonts\Lato\Lato-Black.ttf">
       <PackagePath>Assets\Fonts\Lato\Lato-Black.ttf</PackagePath>
@@ -732,11 +732,11 @@
     <AppxPackagedFile Include="D:\Visual Studio\MovieLibraryApp\MovieLibraryApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-29T05:51:35.864</Modified>
+      <Modified>2018-05-29T08:09:52.572</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\MovieLibraryApp\MovieLibraryApp\bin\x86\Debug\Core\MovieLibraryApp.exe">
       <PackagePath>MovieLibraryApp.exe</PackagePath>
-      <Modified>2018-05-29T05:51:36.097</Modified>
+      <Modified>2018-05-29T08:09:52.829</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

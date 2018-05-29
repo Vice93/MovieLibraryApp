@@ -95,7 +95,9 @@ namespace MovieLibraryApp.Views
             }
             else //Add to db
             {
-                var response = await fvm.InsertMovieInDb(_movieId);
+                var movie = await _mdvm.Lookup(_movieId);
+                if (movie.Count == 0) return;
+                var response = await fvm.InsertMovieInDb(movie[0].MovieId, movie[0].MovieName, movie[0].ImageReference);
 
                 if (response) User.FavoriteMoviesIds.Add(_movieId);
             }

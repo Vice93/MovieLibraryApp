@@ -32,7 +32,7 @@ namespace MovieLibrary.DbAccess
                     if (con.State != System.Data.ConnectionState.Open) return null;
                     using (var cmd = con.CreateCommand())
                     {
-                        cmd.CommandText = "select MovieId from dbo.UserHasMovie where UserId=@UserId";
+                        cmd.CommandText = "select MovieId,MovieTitle,ImageRef from dbo.UserHasMovie where UserId=@UserId;";
                         cmd.Parameters.AddWithValue("@UserId", userId);
                         using (var reader = cmd.ExecuteReader())
                         {
@@ -40,7 +40,9 @@ namespace MovieLibrary.DbAccess
                             {
                                 var mov = new Movie()
                                 {
-                                    MovieId = reader.GetString(0)
+                                    MovieId = reader.GetString(0),
+                                    MovieName = reader.GetString(1),
+                                    ImageReference = reader.GetString(2)
                                 };
                                 movieList.Add(mov);
                             }
@@ -51,7 +53,7 @@ namespace MovieLibrary.DbAccess
             }
             catch(SqlException e)
             {
-                const string filePath = @"C:\Error.txt";
+                const string filePath = @"C:\logs\Error.txt";
                 using (StreamWriter writer = new StreamWriter(filePath, true))
                 {
                     writer.WriteLine("Message :" + e.Message + "<br/>" + Environment.NewLine + "StackTrace :" + e.StackTrace +
@@ -67,8 +69,10 @@ namespace MovieLibrary.DbAccess
         /// </summary>
         /// <param name="userId">The user identifier.</param>
         /// <param name="movieId">The movie identifier.</param>
+        /// <param name="movieTitle">The title of the movie</param>
+        /// <param name="imgRef">The image reference of the movie</param>
         /// <returns></returns>
-        public bool InsertFavoriteMovieIntoDb(string userId,string movieId)
+        public bool InsertFavoriteMovieIntoDb(string userId,string movieId,string movieTitle, string imgRef)
         {
             try
             {
@@ -79,9 +83,11 @@ namespace MovieLibrary.DbAccess
 
                     using (var cmd = con.CreateCommand())
                     {
-                        cmd.CommandText = "insert into dbo.UserHasMovie (Userid,MovieId) values (@UserId, @MovieId)";
+                        cmd.CommandText = "insert into dbo.UserHasMovie (UserId,MovieId,MovieTitle,ImageRef) values (@UserId, @MovieId, @MovieTitle, @ImageRef);";
                         cmd.Parameters.AddWithValue("@UserId", userId);
-                        cmd.Parameters.AddWithValue("@MovieID", movieId);
+                        cmd.Parameters.AddWithValue("@MovieId", movieId);
+                        cmd.Parameters.AddWithValue("@MovieTitle", movieTitle);
+                        cmd.Parameters.AddWithValue("@ImageRef", imgRef);
                         cmd.ExecuteNonQuery();
                     }
                     return true;
@@ -89,7 +95,7 @@ namespace MovieLibrary.DbAccess
             }
             catch (SqlException e)
             {
-                const string filePath = @".\Error.txt";
+                const string filePath = @"C:\logs\Error.txt";
                 using (StreamWriter writer = new StreamWriter(filePath, true))
                 {
                     writer.WriteLine("Message :" + e.Message + "<br/>" + Environment.NewLine + "StackTrace :" + e.StackTrace +
@@ -117,7 +123,7 @@ namespace MovieLibrary.DbAccess
 
                     using (var cmd = con.CreateCommand())
                     {
-                        cmd.CommandText = "delete from dbo.UserHasMovie where UserId=@UserId and MovieId=@MovieId";
+                        cmd.CommandText = "delete from dbo.UserHasMovie where UserId=@UserId and MovieId=@MovieId;";
                         cmd.Parameters.AddWithValue("@UserId", userId);
                         cmd.Parameters.AddWithValue("@MovieId", movieId);
                         cmd.ExecuteNonQuery();
@@ -127,7 +133,7 @@ namespace MovieLibrary.DbAccess
             }
             catch (SqlException e)
             {
-                const string filePath = @".\Error.txt";
+                const string filePath = @"C:\logs\Error.txt";
                 using (StreamWriter writer = new StreamWriter(filePath, true))
                 {
                     writer.WriteLine("Message :" + e.Message + "<br/>" + Environment.NewLine + "StackTrace :" + e.StackTrace +
@@ -138,7 +144,16 @@ namespace MovieLibrary.DbAccess
             }
         }
 
-        public bool UpdateFavoriteMovieInDb(string userId, string oldMovieId, string newMovieId)
+        /// <summary>
+        /// Updates a favorite movie in the database.
+        /// </summary>
+        /// <param name="userId">The user identifier.</param>
+        /// <param name="oldMovieId">The old movie identifier.</param>
+        /// <param name="newMovieId">The new movie identifier.</param>
+        /// <param name="movieTitle">The title of the movie.</param>
+        /// <param name="imgRef">The img reference of the movie.</param>
+        /// <returns></returns>
+        public bool UpdateFavoriteMovieInDb(string userId, string oldMovieId, string newMovieId, string movieTitle, string imgRef)
         {
             try
             {
@@ -149,10 +164,12 @@ namespace MovieLibrary.DbAccess
 
                     using (var cmd = con.CreateCommand())
                     {
-                        cmd.CommandText = "update dbo.UserHasMovie set dbo.UserHasMovie.MovieId=@NewMovieId where UserId=@UserId and MovieId=@MovieId";
+                        cmd.CommandText = "update dbo.UserHasMovie set dbo.UserHasMovie.MovieId=@NewMovieId, dbo.UserHasMovie.MovieTitle=@MovieTitle, dbo.UserHasMovie.ImageRef=@ImageRef where UserId=@UserId and MovieId=@MovieId;";
                         cmd.Parameters.AddWithValue("@UserId", userId);
                         cmd.Parameters.AddWithValue("@MovieId", oldMovieId);
                         cmd.Parameters.AddWithValue("@NewMovieId", newMovieId);
+                        cmd.Parameters.AddWithValue("@MovieTitle", movieTitle);
+                        cmd.Parameters.AddWithValue("@ImageRef", imgRef);
                         cmd.ExecuteNonQuery();
                     }
                     return true;
@@ -160,7 +177,7 @@ namespace MovieLibrary.DbAccess
             }
             catch (SqlException e)
             {
-                const string filePath = @".\Error.txt";
+                const string filePath = @"C:\logs\Error.txt";
                 using (StreamWriter writer = new StreamWriter(filePath, true))
                 {
                     writer.WriteLine("Message :" + e.Message + "<br/>" + Environment.NewLine + "StackTrace :" + e.StackTrace +

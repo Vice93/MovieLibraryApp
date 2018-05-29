@@ -28,5 +28,3 @@ D:\Visual Studio\MovieLibraryApp\MovieLibrary.DbAccess\obj\Debug\MovieLibrary.Db
 D:\Visual Studio\MovieLibraryApp\MovieLibrary.DbAccess\obj\Debug\MovieLibrary.DbAccess.csproj.CopyComplete
 D:\Visual Studio\MovieLibraryApp\MovieLibrary.DbAccess\obj\Debug\MovieLibrary.DbAccess.dll
 D:\Visual Studio\MovieLibraryApp\MovieLibrary.DbAccess\obj\Debug\MovieLibrary.DbAccess.pdb
-D:\Visual Studio\MovieLibraryApp\MovieLibrary.DbAccess\bin\Debug\MovieLibrary.DbAccess.dll.CodeAnalysisLog.xml
-D:\Visual Studio\MovieLibraryApp\MovieLibrary.DbAccess\bin\Debug\MovieLibrary.DbAccess.dll.lastcodeanalysissucceeded

@@ -42,5 +42,3 @@ D:\Visual Studio\MovieLibraryApp\MovieLibrary.ApiSearch\obj\Debug\MovieLibrary.A
 D:\Visual Studio\MovieLibraryApp\MovieLibrary.ApiSearch\obj\Debug\MovieLibrary.ApiSearch.csproj.CopyComplete
 D:\Visual Studio\MovieLibraryApp\MovieLibrary.ApiSearch\obj\Debug\MovieLibrary.ApiSearch.dll
 D:\Visual Studio\MovieLibraryApp\MovieLibrary.ApiSearch\obj\Debug\MovieLibrary.ApiSearch.pdb
-D:\Visual Studio\MovieLibraryApp\MovieLibrary.ApiSearch\bin\Debug\MovieLibrary.ApiSearch.dll.CodeAnalysisLog.xml
-D:\Visual Studio\MovieLibraryApp\MovieLibrary.ApiSearch\bin\Debug\MovieLibrary.ApiSearch.dll.lastcodeanalysissucceeded

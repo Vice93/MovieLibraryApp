@@ -49,7 +49,7 @@ namespace MovieLibrary.Api.Controllers
             var jsonContent = requestContent.ReadAsStringAsync().Result;
             var insert = JsonConvert.DeserializeObject<InsertModel>(jsonContent);
 
-            if (_dbConnection.InsertFavoriteMovieIntoDb(insert.UserId,insert.MovieId)) return Request.CreateResponse(HttpStatusCode.OK, "Saved movie");
+            if (_dbConnection.InsertFavoriteMovieIntoDb(insert.UserId,insert.MovieId,insert.MovieTitle, insert.ImgRef)) return Request.CreateResponse(HttpStatusCode.OK, "Saved movie");
             return Request.CreateResponse(HttpStatusCode.BadRequest, "Couldn't post movie.");
 
             //These could use much more work to check for everything
@@ -68,7 +68,7 @@ namespace MovieLibrary.Api.Controllers
             var jsonContent = requestContent.ReadAsStringAsync().Result;
             var insert = JsonConvert.DeserializeObject<InsertModel>(jsonContent);
 
-            if (_dbConnection.UpdateFavoriteMovieInDb(insert.UserId, insert.MovieId, insert.NewMovie)) return Request.CreateResponse(HttpStatusCode.OK, "Updated movie.");
+            if (_dbConnection.UpdateFavoriteMovieInDb(insert.UserId, insert.MovieId, insert.NewMovie, insert.MovieTitle, insert.ImgRef)) return Request.CreateResponse(HttpStatusCode.OK, "Updated movie.");
             return Request.CreateResponse(HttpStatusCode.BadRequest, "Couldn't update movie.");
         }
 
@@ -117,5 +117,19 @@ namespace MovieLibrary.Api.Controllers
         /// The new movie identifier to replace an old with.
         /// </value>
         public string NewMovie { get; set; }
+        /// <summary>
+        /// Gets or sets the movie title.
+        /// </summary>
+        /// <value>
+        /// The movie title.
+        /// </value>
+        public string MovieTitle { get; set; }
+        /// <summary>
+        /// Gets or sets the img reference.
+        /// </summary>
+        /// <value>
+        /// The img reference.
+        /// </value>
+        public string ImgRef { get; set; }
     }
 }
