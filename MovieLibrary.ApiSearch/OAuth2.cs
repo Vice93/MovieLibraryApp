@@ -85,7 +85,7 @@ namespace MovieLibrary.ApiSearch
                         Debug.WriteLine("Couldn't get OAuth2 token. Statuscode: " + response.StatusCode + ", Action: " + action);
                     }
                 }
-                catch (Exception e)
+                catch (ArgumentException e)
                 {
                     Debug.WriteLine(e.Message);
                 }

@@ -31,7 +31,7 @@
     <AppXManifest Include="D:\Visual Studio\MovieLibraryApp\MovieLibraryApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-29T08:39:24.195</Modified>
+      <Modified>2018-05-29T08:58:01.867</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -732,11 +732,11 @@
     <AppxPackagedFile Include="D:\Visual Studio\MovieLibraryApp\MovieLibraryApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-29T08:39:23.949</Modified>
+      <Modified>2018-05-29T08:58:01.540</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\MovieLibraryApp\MovieLibraryApp\bin\x86\Debug\Core\MovieLibraryApp.exe">
       <PackagePath>MovieLibraryApp.exe</PackagePath>
-      <Modified>2018-05-29T08:39:24.193</Modified>
+      <Modified>2018-05-29T08:58:01.864</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

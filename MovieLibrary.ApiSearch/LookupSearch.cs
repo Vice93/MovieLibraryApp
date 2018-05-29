@@ -126,7 +126,7 @@ namespace MovieLibrary.ApiSearch
                     };
                     _movieList.Add(mov);
                 }
-                catch (Exception e)
+                catch (NullReferenceException e)
                 {
                     Debug.WriteLine(e.Message);
                     break;

@@ -31,25 +31,25 @@ namespace MovieLibrary.ApiSearch
             var param = searchInput + "?types=movie&types=showseries";
             _movieList.Clear();
 
-                var response = await Client.ClientRequest(HttpMethod.Get, baseUri + param);
+            var response = await Client.ClientRequest(HttpMethod.Get, baseUri + param);
 
-                if (response.StatusCode == HttpStatusCode.Unauthorized)
-                {
-                    await OAuth2.GenerateAuth2TokenAsync("OAuth2 token expired. Generated a new one.");
-                    response = await Client.ClientRequest(HttpMethod.Get, baseUri + param);
-                }
-                if (!response.IsSuccessStatusCode) return _movieList;
+            if (response.StatusCode == HttpStatusCode.Unauthorized)
+            {
+                await OAuth2.GenerateAuth2TokenAsync("OAuth2 token expired. Generated a new one.");
+                response = await Client.ClientRequest(HttpMethod.Get, baseUri + param);
+            }
+            if (!response.IsSuccessStatusCode) return _movieList;
 
-                var content = await response.Content.ReadAsStringAsync();
+            var content = await response.Content.ReadAsStringAsync();
 
-                JObject jobject = JObject.Parse(content);
-                JToken movies = jobject["content"];
+            JObject jobject = JObject.Parse(content);
+            JToken movies = jobject["content"];
 
-                if (movies.Any()) await AddMoviesToList(movies);
+            if (movies.Any()) await AddMoviesToList(movies);
 
-                await NextResults(jobject);
+            await NextResults(jobject);
 
-                return _movieList;
+            return _movieList;
         }
         
         
@@ -99,7 +99,7 @@ namespace MovieLibrary.ApiSearch
                     };
                     _movieList.Add(mov);
                 }
-                catch (Exception e)
+                catch (NullReferenceException e)
                 {
                     Debug.WriteLine(e.Message);
                     break;
