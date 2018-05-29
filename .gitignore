@@ -2,3 +2,15 @@
 ~$scription.docx
 Description.docx
 Description.docx
+MovieLibrary.Api/obj/
+MovieLibrary.Api/bin/
+MovieLibrary.ApiSearch/obj/
+MovieLibrary.ApiSearch/bin/
+MovieLibrary.DbAccess/obj/
+MovieLibrary.DbAccess/bin/
+MovieLibrary.Model/obj/
+MovieLibrary.Model/bin/
+MovieLibraryApp/obj/
+MovieLibraryApp/bin/
+packages/
+.vs/

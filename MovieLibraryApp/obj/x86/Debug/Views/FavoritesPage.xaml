@@ -87,7 +87,7 @@
                             <Button x:ConnectionId='9'
                                 Name="PutRequestButton"
                                 Width="170"
-                                Content="Update to sample movie"
+                                Content="Change to best movie ever?"
                                 FontSize="12"
                                                                    />
                         </StackPanel>

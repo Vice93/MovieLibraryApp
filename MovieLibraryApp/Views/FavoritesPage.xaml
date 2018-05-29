@@ -87,7 +87,7 @@
                             <Button
                                 Name="PutRequestButton"
                                 Width="170"
-                                Content="Update to sample movie"
+                                Content="Change to best movie ever?"
                                 FontSize="12"
                                 Tapped="PutRequestButton_OnTapped" />
                         </StackPanel>

@@ -52,6 +52,11 @@ namespace MovieLibraryApp.ViewModels
                     var res = await client.GetStringAsync(_baseUri + "/favorites?userId=" + User.UserId); 
                     var movies = JsonConvert.DeserializeObject<ObservableCollection<Movie>>(res);
 
+                    for (var i = 0; i < movies.Count; i++)
+                    {
+                        if (!User.FavoriteMoviesIds.Contains(movies[i].MovieId)) User.FavoriteMoviesIds.Add(movies[i].MovieId);
+                    }
+
                     return movies;
                 }
             }
@@ -131,7 +136,7 @@ namespace MovieLibraryApp.ViewModels
                     {
                         UserId = User.UserId.ToString(),
                         MovieId = movieId,
-                        NewMovie = "mhmov3jmoaTtkI4mfmD0vxbGPAbt6bggCUchYZRG4Om9", //Sample movie (Lord of the Rings)
+                        NewMovie = "mhmov3jmoaTtkI4mfmD0vxbGPAbt6bggCUchYZRG4Om9", //Sample movie for PUT request(Lord of the Rings: The return of the King). It's a great movie so I'm sure the user don't mind.
                         MovieTitle = "The Lord of the Rings: The Return of the King",
                         ImgRef = "https://images.mediahound.com/media/mhimgEJ2fdWGaD4D1WqjikaSsR6tVCWM7TDd6wcDorjg.jpg"
                     };

@@ -146,6 +146,7 @@ namespace MovieLibrary.DbAccess
 
         /// <summary>
         /// Updates a favorite movie in the database.
+        /// Currently it only changes it into Lord of the Rings: The return of the King
         /// </summary>
         /// <param name="userId">The user identifier.</param>
         /// <param name="oldMovieId">The old movie identifier.</param>

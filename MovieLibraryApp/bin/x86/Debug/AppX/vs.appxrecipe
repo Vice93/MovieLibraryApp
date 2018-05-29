@@ -31,13 +31,13 @@
     <AppXManifest Include="D:\Visual Studio\MovieLibraryApp\MovieLibraryApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-29T08:09:52.830</Modified>
+      <Modified>2018-05-29T08:39:24.195</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Visual Studio\MovieLibraryApp\MovieLibraryApp\bin\x86\Debug\MovieLibraryApp.exe">
       <PackagePath>entrypoint\MovieLibraryApp.exe</PackagePath>
-      <Modified>2018-05-29T08:09:52.081</Modified>
+      <Modified>2018-05-29T08:39:23.471</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonas\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -732,11 +732,11 @@
     <AppxPackagedFile Include="D:\Visual Studio\MovieLibraryApp\MovieLibraryApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-29T08:09:52.572</Modified>
+      <Modified>2018-05-29T08:39:23.949</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\MovieLibraryApp\MovieLibraryApp\bin\x86\Debug\Core\MovieLibraryApp.exe">
       <PackagePath>MovieLibraryApp.exe</PackagePath>
-      <Modified>2018-05-29T08:09:52.829</Modified>
+      <Modified>2018-05-29T08:39:24.193</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
